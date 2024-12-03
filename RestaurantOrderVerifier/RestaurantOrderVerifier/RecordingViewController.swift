@@ -118,6 +118,7 @@ class RecordingViewController: UIViewController {
     
     private func startRecording() {
         recordButton.isSelected = true
+        recordButton.configuration?.title = "Stop Recording"
         recordButton.configuration?.baseBackgroundColor = .systemRed
         statusLabel.text = "Recording..."
         tableView.isHidden = true
@@ -128,18 +129,17 @@ class RecordingViewController: UIViewController {
         speechRecognizer.startRecording(
             textUpdateHandler: { [weak self] text in
                 DispatchQueue.main.async {
-                    self?.recordedText = text
                     self?.statusLabel.text = text
                 }
             },
             itemsCompletion: { [weak self] text in
-                // Process the recognized text directly
                 self?.processRecognizedText(text)
             },
             errorHandler: { [weak self] error in
                 DispatchQueue.main.async {
                     self?.statusLabel.text = "Error: \(error.localizedDescription)"
                     self?.statusLabel.textColor = .systemRed
+                    self?.stopRecording()
                 }
             }
         )
@@ -147,9 +147,21 @@ class RecordingViewController: UIViewController {
     
     private func stopRecording() {
         recordButton.isSelected = false
+        recordButton.configuration?.title = "Start Recording"
         recordButton.configuration?.baseBackgroundColor = .systemBlue
         statusLabel.text = "Processing..."
-        speechRecognizer.stopRecording()
+        
+        speechRecognizer.stopRecording { [weak self] result in
+            DispatchQueue.main.async {
+                switch result {
+                case .success(let text):
+                    self?.processRecognizedText(text)
+                case .failure(let error):
+                    self?.statusLabel.text = "Error: \(error.localizedDescription)"
+                    self?.statusLabel.textColor = .systemRed
+                }
+            }
+        }
     }
     
     private func processRecognizedText(_ text: String) {

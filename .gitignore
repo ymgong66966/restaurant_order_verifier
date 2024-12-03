@@ -9,7 +9,7 @@ Pods/
 RestaurantOrderVerifier/Pods/
 
 # Python
-python_server/venv/
+venv/
 __pycache__/
 *.pyc
 *.pyo
@@ -17,15 +17,27 @@ __pycache__/
 .Python
 *.so
 *.dylib
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.pkl
+*.h5
+
+# IDE
+.idea/
+.vscode/
 
 # Specific large files to exclude
-python_server/venv/lib/python3.9/site-packages/torch/
-python_server/venv/lib/python3.9/site-packages/onnxruntime/
-python_server/venv/lib/python3.9/site-packages/llvmlite/
+python_server/venv/
 RestaurantOrderVerifier/Pods/GoogleMaps/Maps/Frameworks/
-
-# Build
-build/
-DerivedData/
-*.moved-aside
-*.xcuserstate
+.env

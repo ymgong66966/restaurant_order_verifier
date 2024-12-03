@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1246484CFB9710CC1FCDA80D /* Pods_RestaurantOrderVerifier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8346734B795EF05B918A48 /* Pods_RestaurantOrderVerifier.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54AB06E12CF9593100950847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54AB06C22CF9592F00950847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54AB06C92CF9592F00950847;
+			remoteInfo = RestaurantOrderVerifier;
+		};
+		54AB06EB2CF9593100950847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54AB06C22CF9592F00950847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54AB06C92CF9592F00950847;
+			remoteInfo = RestaurantOrderVerifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E8346734B795EF05B918A48 /* Pods_RestaurantOrderVerifier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestaurantOrderVerifier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5154927CBC4C2C9D8EBCB3A6 /* Pods-RestaurantOrderVerifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantOrderVerifier.debug.xcconfig"; path = "Target Support Files/Pods-RestaurantOrderVerifier/Pods-RestaurantOrderVerifier.debug.xcconfig"; sourceTree = "<group>"; };
+		54AB06CA2CF9592F00950847 /* RestaurantOrderVerifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantOrderVerifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AB06E02CF9593100950847 /* RestaurantOrderVerifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantOrderVerifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AB06EA2CF9593100950847 /* RestaurantOrderVerifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantOrderVerifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE4ECFD3F37ABC603F9F1D3 /* Pods-RestaurantOrderVerifier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantOrderVerifier.release.xcconfig"; path = "Target Support Files/Pods-RestaurantOrderVerifier/Pods-RestaurantOrderVerifier.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		54AB06F22CF9593100950847 /* Exceptions for "RestaurantOrderVerifier" folder in "RestaurantOrderVerifier" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 54AB06C92CF9592F00950847 /* RestaurantOrderVerifier */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		54AB06CC2CF9592F00950847 /* RestaurantOrderVerifier */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				54AB06F22CF9593100950847 /* Exceptions for "RestaurantOrderVerifier" folder in "RestaurantOrderVerifier" target */,
+			);
+			path = RestaurantOrderVerifier;
+			sourceTree = "<group>";
+		};
+		54AB06E32CF9593100950847 /* RestaurantOrderVerifierTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RestaurantOrderVerifierTests;
+			sourceTree = "<group>";
+		};
+		54AB06ED2CF9593100950847 /* RestaurantOrderVerifierUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RestaurantOrderVerifierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54AB06C72CF9592F00950847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1246484CFB9710CC1FCDA80D /* Pods_RestaurantOrderVerifier.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AB06DD2CF9593100950847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AB06E72CF9593100950847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06BBE431E471F345AAD503BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5154927CBC4C2C9D8EBCB3A6 /* Pods-RestaurantOrderVerifier.debug.xcconfig */,
+				6DE4ECFD3F37ABC603F9F1D3 /* Pods-RestaurantOrderVerifier.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		54AB06C12CF9592F00950847 = {
+			isa = PBXGroup;
+			children = (
+				54AB06CC2CF9592F00950847 /* RestaurantOrderVerifier */,
+				54AB06E32CF9593100950847 /* RestaurantOrderVerifierTests */,
+				54AB06ED2CF9593100950847 /* RestaurantOrderVerifierUITests */,
+				54AB06CB2CF9592F00950847 /* Products */,
+				06BBE431E471F345AAD503BD /* Pods */,
+				DDBB53B9A14D568066113BA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54AB06CB2CF9592F00950847 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54AB06CA2CF9592F00950847 /* RestaurantOrderVerifier.app */,
+				54AB06E02CF9593100950847 /* RestaurantOrderVerifierTests.xctest */,
+				54AB06EA2CF9593100950847 /* RestaurantOrderVerifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDBB53B9A14D568066113BA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E8346734B795EF05B918A48 /* Pods_RestaurantOrderVerifier.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54AB06C92CF9592F00950847 /* RestaurantOrderVerifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AB06F32CF9593100950847 /* Build configuration list for PBXNativeTarget "RestaurantOrderVerifier" */;
+			buildPhases = (
+				78BCF391EA1B67FAA5C5FD1C /* [CP] Check Pods Manifest.lock */,
+				54AB06C62CF9592F00950847 /* Sources */,
+				54AB06C72CF9592F00950847 /* Frameworks */,
+				54AB06C82CF9592F00950847 /* Resources */,
+				63F5C9853C581CE1240E4D9A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				54AB06CC2CF9592F00950847 /* RestaurantOrderVerifier */,
+			);
+			name = RestaurantOrderVerifier;
+			productName = RestaurantOrderVerifier;
+			productReference = 54AB06CA2CF9592F00950847 /* RestaurantOrderVerifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54AB06DF2CF9593100950847 /* RestaurantOrderVerifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AB06F82CF9593100950847 /* Build configuration list for PBXNativeTarget "RestaurantOrderVerifierTests" */;
+			buildPhases = (
+				54AB06DC2CF9593100950847 /* Sources */,
+				54AB06DD2CF9593100950847 /* Frameworks */,
+				54AB06DE2CF9593100950847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54AB06E22CF9593100950847 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				54AB06E32CF9593100950847 /* RestaurantOrderVerifierTests */,
+			);
+			name = RestaurantOrderVerifierTests;
+			productName = RestaurantOrderVerifierTests;
+			productReference = 54AB06E02CF9593100950847 /* RestaurantOrderVerifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54AB06E92CF9593100950847 /* RestaurantOrderVerifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AB06FB2CF9593100950847 /* Build configuration list for PBXNativeTarget "RestaurantOrderVerifierUITests" */;
+			buildPhases = (
+				54AB06E62CF9593100950847 /* Sources */,
+				54AB06E72CF9593100950847 /* Frameworks */,
+				54AB06E82CF9593100950847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54AB06EC2CF9593100950847 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				54AB06ED2CF9593100950847 /* RestaurantOrderVerifierUITests */,
+			);
+			name = RestaurantOrderVerifierUITests;
+			productName = RestaurantOrderVerifierUITests;
+			productReference = 54AB06EA2CF9593100950847 /* RestaurantOrderVerifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54AB06C22CF9592F00950847 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					54AB06C92CF9592F00950847 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					54AB06DF2CF9593100950847 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 54AB06C92CF9592F00950847;
+					};
+					54AB06E92CF9593100950847 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 54AB06C92CF9592F00950847;
+					};
+				};
+			};
+			buildConfigurationList = 54AB06C52CF9592F00950847 /* Build configuration list for PBXProject "RestaurantOrderVerifier" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54AB06C12CF9592F00950847;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 54AB06CB2CF9592F00950847 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54AB06C92CF9592F00950847 /* RestaurantOrderVerifier */,
+				54AB06DF2CF9593100950847 /* RestaurantOrderVerifierTests */,
+				54AB06E92CF9593100950847 /* RestaurantOrderVerifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54AB06C82CF9592F00950847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AB06DE2CF9593100950847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AB06E82CF9593100950847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63F5C9853C581CE1240E4D9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RestaurantOrderVerifier/Pods-RestaurantOrderVerifier-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RestaurantOrderVerifier/Pods-RestaurantOrderVerifier-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RestaurantOrderVerifier/Pods-RestaurantOrderVerifier-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78BCF391EA1B67FAA5C5FD1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RestaurantOrderVerifier-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54AB06C62CF9592F00950847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AB06DC2CF9593100950847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AB06E62CF9593100950847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54AB06E22CF9593100950847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54AB06C92CF9592F00950847 /* RestaurantOrderVerifier */;
+			targetProxy = 54AB06E12CF9593100950847 /* PBXContainerItemProxy */;
+		};
+		54AB06EC2CF9593100950847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54AB06C92CF9592F00950847 /* RestaurantOrderVerifier */;
+			targetProxy = 54AB06EB2CF9593100950847 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		54AB06F42CF9593100950847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5154927CBC4C2C9D8EBCB3A6 /* Pods-RestaurantOrderVerifier.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3GP744TPT;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RestaurantOrderVerifier/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dinefine.RestaurantOrderVerifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54AB06F52CF9593100950847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE4ECFD3F37ABC603F9F1D3 /* Pods-RestaurantOrderVerifier.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3GP744TPT;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RestaurantOrderVerifier/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dinefine.RestaurantOrderVerifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54AB06F62CF9593100950847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54AB06F72CF9593100950847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54AB06F92CF9593100950847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3GP744TPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dinefine.RestaurantOrderVerifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestaurantOrderVerifier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RestaurantOrderVerifier";
+			};
+			name = Debug;
+		};
+		54AB06FA2CF9593100950847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3GP744TPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dinefine.RestaurantOrderVerifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestaurantOrderVerifier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RestaurantOrderVerifier";
+			};
+			name = Release;
+		};
+		54AB06FC2CF9593100950847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3GP744TPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dinefine.RestaurantOrderVerifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestaurantOrderVerifier;
+			};
+			name = Debug;
+		};
+		54AB06FD2CF9593100950847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3GP744TPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dinefine.RestaurantOrderVerifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestaurantOrderVerifier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54AB06C52CF9592F00950847 /* Build configuration list for PBXProject "RestaurantOrderVerifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AB06F62CF9593100950847 /* Debug */,
+				54AB06F72CF9593100950847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54AB06F32CF9593100950847 /* Build configuration list for PBXNativeTarget "RestaurantOrderVerifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AB06F42CF9593100950847 /* Debug */,
+				54AB06F52CF9593100950847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54AB06F82CF9593100950847 /* Build configuration list for PBXNativeTarget "RestaurantOrderVerifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AB06F92CF9593100950847 /* Debug */,
+				54AB06FA2CF9593100950847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54AB06FB2CF9593100950847 /* Build configuration list for PBXNativeTarget "RestaurantOrderVerifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AB06FC2CF9593100950847 /* Debug */,
+				54AB06FD2CF9593100950847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54AB06C22CF9592F00950847 /* Project object */;
+}

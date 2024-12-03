@@ -341,6 +341,7 @@ def transcribe_audio_chunk():
         # Save audio to temporary file
         temp_file = 'temp_recording.wav'
         try:
+            # Write the raw audio data directly since it already includes WAV header
             with open(temp_file, 'wb') as f:
                 f.write(audio_data)
             
@@ -352,7 +353,7 @@ def transcribe_audio_chunk():
             segments, info = model.transcribe(temp_file, beam_size=5)
             
             # Combine all segments into one text
-            transcription = " ".join([segment.text for segment in segments])
+            transcription = " ".join([segment.text for segment in segments]).strip()
             print(f"Complete transcription: {transcription}")
             
             return jsonify({
@@ -360,9 +361,12 @@ def transcribe_audio_chunk():
                 'text': transcription
             })
             
-        finally:
-            if os.path.exists(temp_file):
-                os.remove(temp_file)
+        except Exception as e:
+            print(f"Error in audio transcription: {str(e)}")
+            return jsonify({
+                'success': False,
+                'error': str(e)
+            })
                 
     except Exception as e:
         print(f"Error in audio transcription: {str(e)}")
@@ -372,4 +376,4 @@ def transcribe_audio_chunk():
         })
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=5000)
+    app.run(host='127.0.0.1', port=5001)
