@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GMSApiKey</key>
+	<string>AIzaSyBV0cM48pAUfx95TQrfdtAHHV0WjSUmpSw</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to find nearby restaurants</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We need your location to find nearby restaurants</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need access to your microphone to record your food order.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>We need speech recognition to understand your food order.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need access to your photos to verify restaurant bills.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need access to your camera to take photos of restaurant bills.</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

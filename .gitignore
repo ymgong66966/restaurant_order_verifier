@@ -1,0 +1,31 @@
+# Xcode
+.DS_Store
+xcuserdata/
+*.xcworkspace
+!default.xcworkspace
+
+# CocoaPods
+Pods/
+RestaurantOrderVerifier/Pods/
+
+# Python
+python_server/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.dylib
+
+# Specific large files to exclude
+python_server/venv/lib/python3.9/site-packages/torch/
+python_server/venv/lib/python3.9/site-packages/onnxruntime/
+python_server/venv/lib/python3.9/site-packages/llvmlite/
+RestaurantOrderVerifier/Pods/GoogleMaps/Maps/Frameworks/
+
+# Build
+build/
+DerivedData/
+*.moved-aside
+*.xcuserstate
